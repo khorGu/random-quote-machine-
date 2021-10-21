@@ -43,7 +43,7 @@ function App() {
         <div id="quote-box" style={{color: accentColor}}>
           <div className="quote-text">
             <h2 id="text">
-            <span id="quote-icon"></span>
+            <span id="quote-icon"><FontAwesomeIcon icon={faQuoteLeft} /></span>
             "{quote}"
             </h2>
           </div>
